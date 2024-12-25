@@ -1,0 +1,39 @@
+{
+  "name": "code",
+  "description": "mycode",
+  "version": "2.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "npx vp-update"
+  },
+  "devDependencies": {
+    "@vue/repl": "^4.4.2",
+    "@vuepress/bundler-vite": "2.0.0-rc.18",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.51",
+    "@waline/client": "^3.3.2",
+    "aplayer": "^1.10.1",
+    "art-template": "^4.13.2",
+    "axios": "^1.7.7",
+    "dayjs": "^1.11.13",
+    "echarts": "^5.5.1",
+    "element-plus": "^2.2.25",
+    "katex": "^0.16.11",
+    "sass-embedded": "^1.79.5",
+    "store": "^2.0.12",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5",
+    "vuepress": "2.0.0-rc.18",
+    "vuepress-plugin-search-pro": "2.0.0-rc.59",
+    "vuepress-theme-hope": "2.0.0-rc.59",
+    "x": "^0.1.2"
+  },
+  "dependencies": {
+    "@vuepress/plugin-feed": "^2.0.0-rc.56",
+    "@vuepress/plugin-pwa": "^2.0.0-rc.56",
+    "@vuepress/plugin-rtl": "^2.0.0-rc.56"
+  }
+}
